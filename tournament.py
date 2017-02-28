@@ -107,6 +107,12 @@ def swissPairings():
         id2: the second player's unique id
         name2: the second player's name
     """
+
+   """
+    Below program creates pairs up players with equal wins, by storing each player in a list and combining them
+    in the third list
+   """
+   
    players = playerStandings()
    r1 = []
    r2 = []
